@@ -1,0 +1,12 @@
+.datePicker {
+  display: inline-flex;
+  padding-bottom: 2em;
+  padding: 2em;
+}
+.myLabel{
+  padding-left: 1em;
+}
+
+.btn-success{
+  margin: 1em;
+}

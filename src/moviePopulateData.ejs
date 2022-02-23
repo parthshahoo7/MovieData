@@ -1,0 +1,14 @@
+<h1>Movies</h1>
+  <div className="App">
+  Hello
+  <Dropdown>
+    <Dropdown.Toggle variant="success" id="dropdown-basic">
+      Movies
+    </Dropdown.Toggle>
+    <Dropdown.Menu>
+      {movieData.map((movie) => (
+        <Dropdown.Item >{movie}</Dropdown.Item>
+      ))}
+    </Dropdown.Menu>
+  </Dropdown>
+</div>
